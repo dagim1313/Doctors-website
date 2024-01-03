@@ -3,9 +3,14 @@
     padding: 0;
    box-sizing: content-box;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }   
 html{
     scroll-behavior: smooth;
+    
+} 
+body{
+    overflow: auto;
 }
 .nav {
     display: flex;
@@ -19,7 +24,7 @@ html{
 
    }  
    .nav .info h1{
-    font-weight: 400;
+    
     color: rgb(43, 46, 117);
     font-family: playfairdisplay-bold, "playfair display", ser;
     font-size: 33px;
@@ -43,18 +48,24 @@ html{
    .nav .contact ul li{
     display: inline-block;   
     justify-content: space-between; 
-   margin-left: 15px;
+   margin-left: 10px;
     
    } 
    .sub-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+} 
+.sub-nav .sub-nav-right{
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
    
    .sub-nav .sub-nav-left ul{
     list-style-type: none;
+    margin-left: 35px;
    }
    .sub-nav .sub-nav-left ul li{
     display: inline-block; 
@@ -69,22 +80,30 @@ html{
     font-family: poppins-semibold, poppins, sans-serif; 
     padding-left: 10px;
     padding-right : 10px;
-    font-weight: 400;
+    font-weight: bold;
+   } 
+   .sub-nav .sub-nav-left ul li a:hover{
+    color:rgb(150, 27, 30) ;
+    transition: 0.5s ease-out;
    }
 .head-vidoe{
     width: 100%;
-    height: 100vh;
+    height: 660px;
     align-items: center;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid;
+    border-color: antiquewhite;
 }
 .head-vidoe .head-video-info{
     align-items: center;
-    text-align: center;
+    text-align: center; 
+    
 }
 .head-vidoe .head-video-info h1{
     font-size: 50px;
+    padding-bottom: 10px;
 }  
 .head-vidoe .head-video-info #h1{
     color: rgb(150, 27, 30) ;
@@ -98,6 +117,7 @@ html{
     font-family: "open sans", sans-serif;
     letter-spacing :0.36px;
     text-align: center;
+    padding-bottom: 10px;
 
 }    
 
@@ -112,10 +132,13 @@ button{
     background-color: rgb(150, 27, 30) ;
     height: 40px;
    color: white;
+   letter-spacing: normal;
+   font-weight: bolder;
 } 
 button:hover{
     background-color: white;
     color: rgb(150, 27, 30);
+    transition: ease-in-out;
 } 
 select{
     width: 160px;
@@ -123,8 +146,7 @@ select{
     border-radius: 17px;
     border-top-width: 2px;
     border-top-style:solid ;
-    background-image: url('https://flagsapi.com/GB/flat/64.png');
-    background-repeat: none;
+    
     text-align: center;
     
 }
