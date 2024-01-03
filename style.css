@@ -9,18 +9,122 @@ html{
 }
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: solid;
+    border-color: antiquewhite;
 }
    .nav div{
     padding: 30px;
 
-   } 
+   }  
+   .nav .info h1{
+    font-weight: 400;
+    color: rgb(43, 46, 117);
+    font-family: playfairdisplay-bold, "playfair display", ser;
+    font-size: 33px;
+    cursor: pointer;
+    letter-spacing: normal;
+    line-height :46.2px;
+   }  
+   .nav .info h3{
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    color: rgb(43, 46, 117);
+    letter-spacing : 0.28px;
+    overflow-wrap: break-word;
+    text-align: center;
+
+   }
    .nav .contact ul{
     list-style-type: none;
+    justify-content: space-between;
    }
    .nav .contact ul li{
-    display: inline-block; 
+    display: inline-block;   
+    justify-content: space-between; 
+   margin-left: 15px;
     
-   }
+   } 
+   .sub-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+   
+   .sub-nav .sub-nav-left ul{
+    list-style-type: none;
+   }
+   .sub-nav .sub-nav-left ul li{
+    display: inline-block; 
+    justify-content: space-between;
+   }
+   .sub-nav .sub-nav-left ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(43, 46, 117);
+    cursor: pointer;
+    font-size: 15px; 
+    font-family: poppins-semibold, poppins, sans-serif; 
+    padding-left: 10px;
+    padding-right : 10px;
+    font-weight: 400;
+   }
+.head-vidoe{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-vidoe .head-video-info{
+    align-items: center;
+    text-align: center;
+}
+.head-vidoe .head-video-info h1{
+    font-size: 50px;
+}  
+.head-vidoe .head-video-info #h1{
+    color: rgb(150, 27, 30) ;
+}  
+.head-vidoe .head-video-info #h2{
+    color: rgb(0, 0, 238);
+} 
+.head-vidoe .head-video-info h4{
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    font-family: "open sans", sans-serif;
+    letter-spacing :0.36px;
+    text-align: center;
+
+}    
+
+
+button{
+    width: 175px;
+    
+    border-radius: 20px;
+    border-top-width: 2px;
+    border-top-style:solid ;
+    border-color: rgb(150, 27, 30);
+    background-color: rgb(150, 27, 30) ;
+    height: 40px;
+   color: white;
+} 
+button:hover{
+    background-color: white;
+    color: rgb(150, 27, 30);
+} 
+select{
+    width: 160px;
+    height: 40px;
+    border-radius: 17px;
+    border-top-width: 2px;
+    border-top-style:solid ;
+    background-image: url('https://flagsapi.com/GB/flat/64.png');
+    background-repeat: none;
+    text-align: center;
+    
+}
