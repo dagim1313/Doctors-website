@@ -50,52 +50,100 @@ line-height: 42.9px;
     font-size: 16px;
     line-height :16px;
 }
-.services{
-    display: block;
+.services {
+    display: flex;
     justify-content: center; 
     align-items: center;
-    width: 100%;
-    height: 120vh; 
-    background-color: rgb(241, 237, 237);
-    padding-left: 90px;
-} 
-.services .service-description{
-    margin-left: auto;
-    margin-right: auto; 
-    width: 70%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.services .service-description h1{
-    font-size: 33px;
-         color: rgb(43, 46, 117);
-         font-family: playfairdisplay-bold,playfair display,serif;
-         letter-spacing: normal;
-         line-height: 46.2px;
-         font-weight: bold;
-}  
-.services .service-description p{
-    font-family: "open sans", sans-serif;
-    font-size: 16px;
-    letter-spacing :normal;
-line-height :28.8px;
-text-align: start;
-
-}  
-.services .services-image{
-    
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
    
 } 
-.services .services-image img{
-    padding-left: 15px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
+.services .services-image{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row;
+}  
+.services .services-image .image{
+   padding: 20px;
 } 
-.services .services-image button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.services .service-description{
+    padding: 20px;
+} 
+.services .service-description h1{
+    color: rgb(43, 46, 117);
+    font-family: playfairdisplay-bold, "playfair display", ser;
+    font-size: 33px;
+    letter-spacing:normal;
+line-height :46.2px;
+overflow-wrap :break-word;
+}  
+.services .service-description p{
+    font-size: 16px;
+    line-height: 1.8em;
+    color: rgb(96, 94, 94);
+    letter-spacing: -0.01em;
+    overflow-wrap :break-word;
+    text-align: start;
 }
+ 
+  .methodology{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  } 
+  .methodology .methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    
+  } 
+  
+  .methodology .methdology-description h3 {
+    color: rgb(43, 46, 117);
+    font-size: 16px; 
+    letter-spacing: 6.4px;
+    line-height: 16px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: playfairdisplay-bold, "playfair display", ser;
+  } 
+  .methodology .methdology-description h1{
+    font-size: 33px;
+    font-family: playfairdisplay-bold,playfair display,serif;
+    line-height: 1.3em;
+    text-align: center;
+    background-origin :padding-box;
+    color: rgb(43, 46, 117);
+    letter-spacing:normal;
+line-height:42.9px;
+
+  }  
+
+  .recnt-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: rgb(240, 240, 240);
+  } 
+  .recnt-blog .recent-blog-description{
+    width: 50%;
+  }
+  .recnt-blog .recent-blog-image {
+    padding: 30px;
+    
+  }  
+  .recnt-blog .recent-blog-description h1{
+    font-size: 33px;
+    color: rgb(43, 46, 117);
+    letter-spacing: normal;
+line-height: 46.2px;
+text-align:center;
+  }
+

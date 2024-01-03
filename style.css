@@ -124,7 +124,7 @@ body{
 
 button{
     width: 175px;
-    
+    cursor: pointer;
     border-radius: 20px;
     border-top-width: 2px;
     border-top-style:solid ;
