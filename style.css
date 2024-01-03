@@ -149,4 +149,10 @@ select{
     
     text-align: center;
     
+} 
+
+input{
+    padding: 15px;
+    width:auto ;
+    border-radius: 20px;
 }
