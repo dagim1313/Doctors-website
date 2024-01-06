@@ -95,6 +95,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: solid;
     border-color: antiquewhite;
+    background-color: rgb(225, 241, 189);
+    border-radius: 10%;
+    
 }
 .head-vidoe .head-video-info{
     align-items: center;
